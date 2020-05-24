@@ -24,7 +24,7 @@ int main()
       //parent process since fork returs PID of the child process 
       printf("In parent process, before sleep, PID=%d PPID=%d\n", getpid(),getppid());
       sleep(5);
-      printf("In parent process, after sleep, PID=%d PPID=%d\n", getpid(),getppid());//to demonstrate orphan process
+      printf("In parent process, after sleep, PID=%d PPID=%d\n", getpid(),getppid());
       printf("parent process died\n");
       break;
   }
