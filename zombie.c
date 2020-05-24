@@ -6,7 +6,7 @@
 void main()
 {
   int n;
-  n=fork()
+  n=fork();
   switch(n)
   {
     case -1:
